@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<Script>
+    function NTo(num) {
+        for (let i = 2; i < num; i++) {
+            if (num % i == 0) {
+                return 0;
+            }
+        }
+        return 1
+    }
+
+    let x = prompt()
+    result = NTo(x)
+    if (result) {
+        alert(x+' ' + 'La so nguyen to')
+    } else {
+        alert(x+' ' + "Khong phai so nguyen  to")
+    }
+</Script>
